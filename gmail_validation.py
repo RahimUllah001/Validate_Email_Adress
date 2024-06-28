@@ -22,9 +22,11 @@ if len(email) >= 6:
                     else:
                         d = 1
 
-                        print("right")
-                    if j == 1 or k == 1:
+
+                    if j == 1 or k == 1 or d == 1:
                         print("wrong email")
+                    else:
+                        print("your email is right")
             else:
                 print("wrong place of dot")
         else:
